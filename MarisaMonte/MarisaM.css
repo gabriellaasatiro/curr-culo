@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightpink;
+    font-family: Arial, sans-serif;
+    color: #201919;
+}
+
+
+/* Título */
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #d87093;
+    padding: 30px;
+}
+
+.title h1 {
+    font-size: 40px;
+}
+
+
+/* Álbuns */
+
+.albuns {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 40px;
+}
+
+.album,
+.album1 {
+    width: 250px;
+    text-align: center;
+}
+
+.album img,
+.album1 img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.album p,
+.album1 p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+/* Sobre Marisa */
+
+.sobre {
+    width: 75%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+
+    background-color: #ffffff;
+    border-radius: 15px;
+
+    text-align: center;
+}
+
+.sobre h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #d87093;
+}
+
+.sobre p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+
+/* Foto */
+
+.foto {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.foto img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+
+/* Informações */
+
+.informacoes {
+    width: 80%;
+    margin: 40px auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.bloco {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.bloco h3 {
+    color: #d87093;
+    margin-bottom: 15px;
+}
+
+.bloco p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
